@@ -1,0 +1,257 @@
+{
+  "patient_id": "P-2715",
+  "patient_as_of_date": "2026-07-01",
+  "generated_at": "2026-07-30T02:38:37.925614+00:00",
+  "disclaimer": "Pre-screening aid only \u2014 not a clinical eligibility determination. All matches require qualified human review.",
+  "trials_evaluated_count": 13,
+  "shortlisted_after_filter_count": 13,
+  "matches": [
+    {
+      "rank": 1,
+      "nct_id": "NCT06003153",
+      "brief_title": "GLUCOSE-MGH: Genetic Links Understood Through Challenge With Oral Semaglutide Exposure at MGH",
+      "recruiting_status": "RECRUITING",
+      "recruiting_eligibility": "Trial is actively recruiting per frozen ClinicalTrials.gov snapshot.",
+      "clinical_fit_summary": "age=SUPPORTED; hba1c=UNKNOWN; current_diabetes_medications=SUPPORTED; egfr=SUPPORTED; additional_eligibility=REQUIRES_CLINICAL_REVIEW",
+      "clinical_fit_score": 5,
+      "human_review_status": "REQUIRED",
+      "unanswered_questions": [
+        "Does the patient meet the hba1c requirement? Trial expects: No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+        "Out-of-scope eligibility clause requires review: Trial eligibility text includes requirements outside the five automated criteria (cancer, consent, pregnant). Human clinical review is required before enrollment decisions."
+      ],
+      "criterion_results": [
+        {
+          "criterion": "age",
+          "state": "SUPPORTED",
+          "patient_value": 42,
+          "trial_requirement": "minimum 18.0 years; maximum 65.0 years",
+          "reason": "Patient age 42 falls within the trial age range (minimum 18.0 years; maximum 65.0 years).",
+          "evidence_ids": [
+            "patient:P-2715:demographics",
+            "trial:NCT06003153:overall_status"
+          ]
+        },
+        {
+          "criterion": "hba1c",
+          "state": "UNKNOWN",
+          "patient_value": 8.6,
+          "trial_requirement": "No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+          "reason": "Trial record does not establish an automatable HbA1c rule in the retrieved text.",
+          "evidence_ids": [
+            "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+            "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+            "trial:NCT06003153:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "current_diabetes_medications",
+          "state": "SUPPORTED",
+          "patient_value": [
+            "Empagliflozin 10 MG Oral Tablet"
+          ],
+          "trial_requirement": "Currently taking medications or intending to take medications for diabetes Currently taking medications or intending to take medications that affect glycemic parameters, such as glucocorticoids, growth hormone, or fluoroquinolones",
+          "reason": "No definitive medication exclusion detected against active medications using retrieved excerpt.",
+          "evidence_ids": [
+            "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+            "trial:NCT06003153:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "egfr",
+          "state": "SUPPORTED",
+          "patient_value": 105.0,
+          "trial_requirement": "Estimated glomerular filtration rate (eGFR) \\<60 ml/min/1.73 m2 per the Modification of Diet in Renal Disease equation",
+          "reason": "Patient eGFR 105.0 mL/min/1.73m\u00b2 meets parsed minimum threshold 60.0.",
+          "evidence_ids": [
+            "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+            "trial:NCT06003153:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "trial_recruiting_status",
+          "state": "SUPPORTED",
+          "patient_value": null,
+          "trial_requirement": "Trial must be actively recruiting (RECRUITING or ENROLLING_BY_INVITATION) in the frozen snapshot.",
+          "reason": "Trial status is RECRUITING, which indicates active recruitment in the snapshot.",
+          "evidence_ids": [
+            "trial:NCT06003153:overall_status"
+          ]
+        }
+      ],
+      "evidence_trace": [
+        "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+        "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+        "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+        "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+        "patient:P-2715:demographics",
+        "trial:NCT06003153:eligibility_text",
+        "trial:NCT06003153:overall_status"
+      ]
+    },
+    {
+      "rank": 2,
+      "nct_id": "NCT07184775",
+      "brief_title": "CGM Adherence Compared to Finger-stick Glucose Monitoring in Pregnancies With Type 2 Pregestational Diabetes",
+      "recruiting_status": "RECRUITING",
+      "recruiting_eligibility": "Trial is actively recruiting per frozen ClinicalTrials.gov snapshot.",
+      "clinical_fit_summary": "age=SUPPORTED; hba1c=UNKNOWN; current_diabetes_medications=SUPPORTED; egfr=UNKNOWN",
+      "clinical_fit_score": 4,
+      "human_review_status": "REQUIRED",
+      "unanswered_questions": [
+        "Does the patient meet the hba1c requirement? Trial expects: No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+        "Does the patient meet the egfr requirement? Trial expects: No automatable eGFR threshold in retrieved eligibility excerpt."
+      ],
+      "criterion_results": [
+        {
+          "criterion": "age",
+          "state": "SUPPORTED",
+          "patient_value": 42,
+          "trial_requirement": "minimum 18.0 years; no maximum age in record (open upper bound)",
+          "reason": "Patient age 42 falls within the trial age range (minimum 18.0 years; no maximum age in record (open upper bound)).",
+          "evidence_ids": [
+            "patient:P-2715:demographics",
+            "trial:NCT07184775:overall_status"
+          ]
+        },
+        {
+          "criterion": "hba1c",
+          "state": "UNKNOWN",
+          "patient_value": 8.6,
+          "trial_requirement": "No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+          "reason": "Trial record does not establish an automatable HbA1c rule in the retrieved text.",
+          "evidence_ids": [
+            "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+            "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+            "trial:NCT07184775:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "current_diabetes_medications",
+          "state": "SUPPORTED",
+          "patient_value": [
+            "Empagliflozin 10 MG Oral Tablet"
+          ],
+          "trial_requirement": "* allergy to insulin",
+          "reason": "No definitive medication exclusion detected against active medications using retrieved excerpt.",
+          "evidence_ids": [
+            "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+            "trial:NCT07184775:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "egfr",
+          "state": "UNKNOWN",
+          "patient_value": 105.0,
+          "trial_requirement": "No automatable eGFR threshold in retrieved eligibility excerpt.",
+          "reason": "Trial record does not establish a numeric eGFR rule in the retrieved text.",
+          "evidence_ids": [
+            "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+            "trial:NCT07184775:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "trial_recruiting_status",
+          "state": "SUPPORTED",
+          "patient_value": null,
+          "trial_requirement": "Trial must be actively recruiting (RECRUITING or ENROLLING_BY_INVITATION) in the frozen snapshot.",
+          "reason": "Trial status is RECRUITING, which indicates active recruitment in the snapshot.",
+          "evidence_ids": [
+            "trial:NCT07184775:overall_status"
+          ]
+        }
+      ],
+      "evidence_trace": [
+        "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+        "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+        "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+        "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+        "patient:P-2715:demographics",
+        "trial:NCT07184775:eligibility_text",
+        "trial:NCT07184775:overall_status"
+      ]
+    },
+    {
+      "rank": 3,
+      "nct_id": "NCT07057518",
+      "brief_title": "The Effect of Emotional Freedom Technique on Psychological Health and Well-being in People With Type 2 Diabetes.",
+      "recruiting_status": "RECRUITING",
+      "recruiting_eligibility": "Trial is actively recruiting per frozen ClinicalTrials.gov snapshot.",
+      "clinical_fit_summary": "age=SUPPORTED; hba1c=UNKNOWN; current_diabetes_medications=SUPPORTED; egfr=UNKNOWN; additional_eligibility=REQUIRES_CLINICAL_REVIEW",
+      "clinical_fit_score": 3,
+      "human_review_status": "REQUIRED",
+      "unanswered_questions": [
+        "Does the patient meet the hba1c requirement? Trial expects: No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+        "Does the patient meet the egfr requirement? Trial expects: No automatable eGFR threshold in retrieved eligibility excerpt.",
+        "Out-of-scope eligibility clause requires review: Trial eligibility text includes requirements outside the five automated criteria (psychiatric). Human clinical review is required before enrollment decisions."
+      ],
+      "criterion_results": [
+        {
+          "criterion": "age",
+          "state": "SUPPORTED",
+          "patient_value": 42,
+          "trial_requirement": "minimum 18.0 years; no maximum age in record (open upper bound)",
+          "reason": "Patient age 42 falls within the trial age range (minimum 18.0 years; no maximum age in record (open upper bound)).",
+          "evidence_ids": [
+            "patient:P-2715:demographics",
+            "trial:NCT07057518:overall_status"
+          ]
+        },
+        {
+          "criterion": "hba1c",
+          "state": "UNKNOWN",
+          "patient_value": 8.6,
+          "trial_requirement": "No explicit HbA1c threshold found in retrieved eligibility excerpt.",
+          "reason": "Trial record does not establish an automatable HbA1c rule in the retrieved text.",
+          "evidence_ids": [
+            "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+            "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+            "trial:NCT07057518:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "current_diabetes_medications",
+          "state": "SUPPORTED",
+          "patient_value": [
+            "Empagliflozin 10 MG Oral Tablet"
+          ],
+          "trial_requirement": "Inclusion Criteria:\n\n* being over 18 years of age,\n* having type 2 diabetes,\n* no psychiatric diagnosis\n* agreeing to participate in the study.\n\nExclusion Criteria:\n\n* be under 18 years of age,\n* have type 1 diabetes or gestational diabetes,\n* attend any course on coping with diabetes distress and anxiety,\n* have advanced mental health problems.",
+          "reason": "No definitive medication exclusion detected against active medications using retrieved excerpt.",
+          "evidence_ids": [
+            "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+            "trial:NCT07057518:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "egfr",
+          "state": "UNKNOWN",
+          "patient_value": 105.0,
+          "trial_requirement": "No automatable eGFR threshold in retrieved eligibility excerpt.",
+          "reason": "Trial record does not establish a numeric eGFR rule in the retrieved text.",
+          "evidence_ids": [
+            "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+            "trial:NCT07057518:eligibility_text"
+          ]
+        },
+        {
+          "criterion": "trial_recruiting_status",
+          "state": "SUPPORTED",
+          "patient_value": null,
+          "trial_requirement": "Trial must be actively recruiting (RECRUITING or ENROLLING_BY_INVITATION) in the frozen snapshot.",
+          "reason": "Trial status is RECRUITING, which indicates active recruitment in the snapshot.",
+          "evidence_ids": [
+            "trial:NCT07057518:overall_status"
+          ]
+        }
+      ],
+      "evidence_trace": [
+        "21448cc2-6189-56ad-874c-380597fdca12@2026-05-23",
+        "488a8fe1-0979-56ff-aa16-5b235b56b421@2025-01-16",
+        "e1bdb428-b81e-5070-9b6d-3151f8dcd02c@2025-05-16",
+        "f393fc46-3f06-5307-b5ab-0f2b917b4303@2026-05-23",
+        "patient:P-2715:demographics",
+        "trial:NCT07057518:eligibility_text",
+        "trial:NCT07057518:overall_status"
+      ]
+    }
+  ]
+}
