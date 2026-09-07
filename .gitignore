@@ -1,0 +1,13 @@
+﻿.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+output/*
+!output/.gitkeep
+!output/sample_patient_03_report.json
+!output/sample_patient_1842_report.json
+.vscode/
